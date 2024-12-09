@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: grid;
+    place-items: center;
+    
+    background-color: #323232;
+    font-family: monospace, sans-serif;
+}
+main {
+    width: min(100% - 1rem, 24rem);
+}
+section {
+    color: #ff4d01;
+    border: 2px solid #f70717; 
+    border-radius: 10px;
+    padding-inline: 1.5rem;
+    box-shadow: 5px 5px 0px #f70707;
+}
+
+input[type="number"] {
+    padding: .5em;
+    font-size: 1rem;
+}
